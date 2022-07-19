@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Roboto:wght@400;700&display=swap');
+
+body a {
+    text-decoration: none;
+}
+
+.texto_garamond{
+    font-family: 'EB Garamond', serif;
+}
+
+.texto_roboto{
+    font-family: 'Roboto', sans-serif;
+}
+
+.cor_laranja{
+    background-color: #fd7e14;
+}
+
+.cor_cinza{
+    background-color: #F2F2F2;
+}
+
+.texto_cinza{
+    color: rgb(110, 110, 110);
+}
+
+.texto_branco{
+    color: #fff;
+}
+
+.tamanho_maximo_conteudo{
+    margin: 0 auto;
+    max-width: 1350px;
+}
+
+.display_flex{
+    display: flex;
+    align-items: center;
+}
+
+#top_header{
+    margin-top: 10px;
+    border-bottom: solid 1px rgb(190, 190, 190);
+    margin-bottom: 25px;
+}
+
+#minha_conta h2{
+    font-size: 14px;
+    margin-left: 5px;
+    padding-top: 2px;
+}
+
+#minha_conta img{
+    height: 30px;
+}
+
+#minha_conta{
+    align-items: center;
+}
+
+#dentro_top_header{ 
+    padding: 10px 10px;
+    justify-content: space-between;
+}
+
+#logo_vivara img{   
+    width: 190px;
+}
+
+#sacola_compras{
+    align-items: baseline;
+}
+
+#sacola_compras img{
+    height: 25px;
+}
+
+#status_sacola{
+    font-size: 13px;
+    position: relative;
+    left: 10px;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#bot_header{
+    padding-right: 40px;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+
+#barra_navegacao{
+    width: 70%;
+    /* background-color: bisque; */
+}
+
+.lista_navegacao{
+    display: flex;
+    justify-content: space-around;
+    font-size: 14px;
+}
+
+.lista_navegacao a {
+    text-decoration-style: none;
+}
+
+.lista_navegacao a:hover{
+    color: #fd7e14;
+}
+
+#zona_busca {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+}
+
+#procura{
+    width: 80%;
+    padding-left: 5px;
+    font-size: 14px;
+    height: 40px;
+    border: none; 
+}
+
+#botao_pesquisa{
+    width: 20%;
+    border: none;
+    text-align: right;
+}
+
+#botao_pesquisa img{
+    height: 20px;
+}

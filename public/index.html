@@ -2,36 +2,46 @@
 <html lang="pt-br">
 
 <head>
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/theme.css">
+    <link rel="stylesheet" href="./styles/index.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DH Jóias</title>
+    <title>Document</title>
 </head>
 
 <body>
     <header>
-        <div id="minhaConta">
-            <img src="#" alt="icone conta">
-            <p>Minha Conta</p>
-        </div>
-        <div id="logo"></div>
+        <section id="top_header" class="texto_roboto texto_cinza">
+            <div id="dentro_top_header" class="tamanho_maximo_conteudo display_flex">
+                <div id="minha_conta" class="display_flex">
+                    <img src="./assets/account.png" alt="icone">
+                    <h2>Minha Conta</h2>
+                </div>
+                <div id="logo_vivara"><img src="./assets/logo-vivara.svg" alt="logo"></div>
+                <div id="sacola_compras" class="display_flex">
+                    <div id="status_sacola" class="cor_laranja texto_branco">0</div>
+                    <img src="./assets/bag.svg" alt="iconesacola">
+                </div>
+            </div>
+        </section>
+        <section id="bot_header" class="tamanho_maximo_conteudo display_flex">
+            <div id="barra_navegacao" class="texto_garamond ">
+                <ul class="lista_navegacao">
+                    <li><a href="#">CASAMENTO</a></li>
+                    <li><a href="#">RELÓGIOS</a></li>
+                    <li><a href="#">ACESSORIOS</a></li>
+                    <li><a href="#">MASCULINO</a></li>
+                </ul>
+            </div>
+            <form id="zona_busca">
+                <input type="text" name="procura" id="procura" placeholder="Digite o que busca" class="cor_cinza texto_roboto" required/>
+                <button type="submit" id="botao_pesquisa"><img src="./assets/search.svg" alt="lupa"></button>
+            </form>
+        </section>
     </header>
-    <nav>
-        <ul>
-            <li><a href="/public/joias.html">Jóias</a></li>
-            <li><a href="/public/casamento.html">Casamento</a></li>
-            <li><a href="/public/relogios.html">Relógios</a></li>
-            <li><a href="/public/acessorios.html">Acessórios</a></li>
-            <li><a href="/public/masculino.html">Masculinos</a></li>
 
-        </ul>
-    </nav>
-    <main>
-
-    </main>
-    <footer>
-        
-    </footer>
 </body>
 
 </html>
