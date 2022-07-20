@@ -1,3 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+
+
+#body{
+    border: 1px solid red;
+    height: 800px;
+    width: 100px;
+    font-family: 'EB Garamond';
+    /* background-color: white; */
+}
 #usuario{
     background-color: rgba(211, 211, 211, 0.041);
 
@@ -6,7 +16,6 @@
 #orange{
     color: #F09C75;
     font-size: 14px;
-    font-weight: bold;
 }
 
 
