@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Roboto:wght@400;700&display=swap');
 
-a {
+header a {
     text-decoration: none;
+    color: black;
 }
 
 .texto_garamond{
