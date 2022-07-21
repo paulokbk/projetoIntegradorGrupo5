@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Roboto:wght@400;700&display=swap');
 
 
 #body{
@@ -60,7 +60,7 @@
 
 }
 
-.dado{
+#dado{
     /* border: 1px solid grey; */
     display: flex;
     gap: 2%;
@@ -79,7 +79,7 @@
     
 
 }
-.conteudo{
+#conteudo{
     /* border: 1px solid red; */
     height:54px;
     width: 400px;
@@ -88,6 +88,7 @@
     flex-direction: column;
     justify-content:center;
 }
+
 
 .sair{
     margin: -52px 0px 0px 0px;
