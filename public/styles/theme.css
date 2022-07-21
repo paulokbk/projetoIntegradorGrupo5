@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Roboto:wght@400;700&display=swap');
 
-body a {
+body{
+    background-color: #FDECE3
+}
+
+a {
     text-decoration: none;
 }
 
@@ -38,8 +42,14 @@ body a {
     align-items: center;
 }
 
+header{
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    padding-bottom: 20px;
+}
+
 #top_header{
-    margin-top: 10px;
     border-bottom: solid 1px rgb(190, 190, 190);
     margin-bottom: 25px;
 }
