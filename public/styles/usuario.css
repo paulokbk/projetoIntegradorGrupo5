@@ -27,7 +27,6 @@
 .titulo{
     /* border: 1px solid red; */
     font-size: 18px;
-    margin-top:20px;
     margin:0px 0px -46px 0px;
     background-color: white;
     height: 100px;
@@ -91,6 +90,7 @@
 
 
 .sair{
+    /* border: 1px solid blue; */
     margin: -52px 0px 0px 0px;
     display: flex;
     flex-direction: row-reverse;
@@ -100,7 +100,18 @@
     background: white;
     height: 140px;
     width: 100%;
+}
+.sair  #container_sair{
+    /* border: 1px solid red; */
     cursor:pointer;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    gap: 55%;
+    align-items: center;
+    background: white;
+    width: 100%;
+    height: 50px;
 }
 
 #menuright{
