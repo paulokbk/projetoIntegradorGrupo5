@@ -143,3 +143,29 @@ header{
 #botao_pesquisa img{
     height: 20px;
 }
+
+footer{
+    background-color: #FEEDE4;
+    padding: 80px;
+}
+
+.inside_footer{
+    justify-content: space-between;
+}
+
+.left_footer{
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 35px;
+    font-size: 12px;
+}
+
+.left_footer img{
+    height: 19px;
+}
+
+.rigth_footer{
+    padding-right: 40px;
+    display: flex;
+    align-items: flex-end;
+}
