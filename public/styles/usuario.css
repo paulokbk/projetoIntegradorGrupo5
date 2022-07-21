@@ -1,13 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Roboto:wght@400;700&display=swap');
 
+.max-width-content {
+    max-width: 1350px;
+    margin: 0 auto;
+    min-width: none;
+  
 
+}
+
+.tamanho_maximo_teste{
+    margin: 0 auto;
+  
+    max-width: 1350px;
+}
+
+/* 
 #body{
     border: 1px solid red;
     height: 800px;
     width: 100px;
     font-family: 'EB Garamond';
-    /* background-color: white; */
-}
+    /* background-color: white;  */
 #usuario{
     background-color: rgba(211, 211, 211, 0.041);
 
@@ -23,6 +36,14 @@
     /* border: 1px solid brown; */
     margin: 10px;
 }
+
+
+
+.display_flex{
+    display: flex;
+    align-items: center;
+}
+
 
 .titulo{
     /* border: 1px solid red; */
@@ -42,9 +63,10 @@
 /* border-right:1px solid #f09c753f; */
     display: flex;
     flex-direction: column;
-    width:400px;
+    width:32%;
     height: 700px;
     margin: 20px;;
+    
 }
 #mid #menuleft #painel{
     /* border: 1px solid grey; */
