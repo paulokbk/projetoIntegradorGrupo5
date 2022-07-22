@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Roboto:wght@400;700&display=swap');
 
+.orange{
+    color: #F08769
+}
+
+.bgwhite{
+    background-color: white;
+}
+
 .max-width-content {
     max-width: 1350px;
     margin: 0 auto;
@@ -8,206 +16,140 @@
 
 }
 
-.tamanho_maximo_teste{
-    margin: 0 auto;
-  
-    max-width: 1350px;
-}
-
-/* 
-#body{
-    border: 1px solid red;
-    height: 800px;
-    width: 100px;
-    font-family: 'EB Garamond';
-    /* background-color: white;  */
-#usuario{
-    background-color: rgba(211, 211, 211, 0.041);
-
-    width: 1200px;
-}
-#orange{
-    color: #F09C75;
-    font-size: 14px;
-}
-
-
- #top, #mid{
-    /* border: 1px solid brown; */
-    margin: 10px;
-}
-
-
-
-.display_flex{
+.pagina_usuario{
     display: flex;
-    align-items: center;
+    justify-content: center;
+    margin-top: 50px; 
 }
 
-
-.titulo{
-    /* border: 1px solid red; */
-    font-size: 18px;
-    margin:0px 0px -46px 0px;
-    background-color: white;
-    height: 100px;
-    display: flex;
-    align-items: center;
-}
-#mid{
-    display: flex;
-}
-
-#menuleft{
-    /* background-color: rgba(211, 211, 211, 0.041); */
-/* border-right:1px solid #f09c753f; */
-    display: flex;
-    flex-direction: column;
-    width:32%;
+#left_container{
+    border-right: 1px solid #eeeeee7e ;
+    width: 33%;
     height: 700px;
-    margin: 20px;;
-    
-}
-#mid #menuleft #painel{
-    /* border: 1px solid grey; */
-    height: 300px;
-    width: 390px;
-    display:flex;
-    justify-content:center;
-    align-items: center;
-    flex-direction: column;
-    margin: 40px 0px ;
-    background-color: rgba(211, 211, 211, 0.041);
-    cursor:pointer;
 }
 
-#dado{
-    /* border: 1px solid grey; */
+#id_usuario{
     display: flex;
-    gap: 2%;
-    width: 100%;
+    font-size: 23px;
+    height: 69px;
     background-color: white;
-    margin-top: -1px;
-    border: 1px solid rgba(211, 211, 211, 0.5);
-    
+    margin-top: 13px;
 }
-#icon{
-    /* border: 1px solid red; */
-    width: 20px;
-    height: 20px;
-    margin: 10px 0px 0px 5px;
-    margin-left: 30px;
-    
-
-}
-#conteudo{
-    /* border: 1px solid red; */
-    height:54px;
-    width: 400px;
-    margin-left: px;
-    display:flex;
-    flex-direction: column;
-    justify-content:center;
+ #consulte{
+    font-size: 15px;
 }
 
 
-.sair{
+.menu_left{
     /* border: 1px solid blue; */
-    margin: -52px 0px 0px 0px;
+    height: 70px;
     display: flex;
-    flex-direction: row-reverse;
-    justify-content: center;
-    gap: 55%;
     align-items: center;
-    background: white;
-    height: 140px;
-    width: 100%;
-}
-.sair  #container_sair{
-    /* border: 1px solid red; */
-    cursor:pointer;
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: center;
-    gap: 55%;
-    align-items: center;
-    background: white;
-    width: 100%;
-    height: 50px;
-}
-
-#menuright{
-    width: 880px;
-    height: 700px;
-    margin: 19px -25px;;
-    /* border-left:1px solid #f09c753f; */
-    /* background-color: rgba(211, 211, 211, 0.041); */
-    
-}
-#subtitulo{
-    /* border: 1px solid red; */
-    font-size: 18px;
-    margin:20px 0px 0px 12px;
-}
-#subtitle{
-    font-size: 14px;
-    margin:0px 0px 0px 12px;
-}
-#menuright .painel2{
-   /* border: 0.5px solid red; */
-    display: flex;
-    margin: 10px 0px 10px 10px;
-    height: 46px;
     background-color: white;
-    padding: 3px 5px 3px 5px;
+}
+
+
+#options_left{
+    display: flex;
     align-items: center;
-    border: 1px solid rgba(211, 211, 211, 0.5);
-    border-radius: 5px;
-    width: 93%;
-    cursor:pointer; 
-
+    margin-bottom: 0px;
+    width: 100%;
+    height: 70px; 
+    border: 1px solid #eeeeee7e ;
+    cursor:pointer;
+}
+.menu_left #icon_left{
+    /* border: 1px solid red; */
+    width: 5%;
+    margin:2% 3% 2% 3%;
+}
+#text_left{
+    /* border: 1px solid red; */
+    width: 300px;
 }
 
-#painel2{
-    /* border: 1px solid green; */
-    margin: 53px 10px; 
- 
+#painel_sair{
+    border-top: 1px solid #eeeeee7e ;
+    height: 25%;
+    display: flex;
+    align-items: center;
+}
+#sair{
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 65%;
+width: 100%;
+cursor:pointer;
+margin-top: 20px;
 }
 
-#menuright .painel2 #info{
-    /* border: 0.5px solid red; */
-    margin-left: 5px;
+
+
+#right_container{
+    /* border: 1px solid navy; */
+    width: 64%;
+    height: 720px;
+    margin-right: 0px;
+    background-color: #FAFAFA;  
+}
+#dado_usuario{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 23px;
+    height: 90px;
+    margin-left: 25px;
+}
+#menu_right{
+    /* border: 1px solid blue; */
+    width: 100%;
+    height: 600px;
+    margin-bottom: -530px;
+}
+
+#menu_right #painel_right{
+    border:  1px solid #eeeeeef5 ;
+    width: 95%;
+    height: 10%;
     display: flex;
     justify-content: space-between;
-    flex-direction: row;
-    width: 550px;
-    height: 46px;
-    align-items: center;
-    cursor:pointer; 
+    gap: 0%;
+    cursor:pointer;
+    background-color: white;
+    border-radius: 2%;
+    margin-left: 20px; 
 }
-.icon_e_dado{
+
+
+#menu_right #painel_right #options_menu{
+    /* border: 1px solid pink; */
+    width: 250px;
     display: flex;
     align-items: center;
-    margin-left: 20px;
-    gap: 1%;
+    gap: 7%;
+    margin-left: 2%; 
 }
-
-.details{
+#menu_right #painel_right #options_detail{
+    /* border: 1px solid pink; */
+    width: 140px;
     display: flex;
-    flex-direction:row-reverse;
-    gap: 5%;
-    margin-left: 12%;
-    
+    align-items: center;
+    gap: 7%;
+    padding-left: 10px;
 }
 
-.details #cetinha{
-    /* border: 1px solid grey; */
-    margin-top: -3px;
-    height: 25px;
-    
-}
 
-.icon{
-    width: 20px;
-    height: 20px; 
-} 
+
+
+
+
+
+
+@media (max-width:1200px) {
+    .pagina_usuario{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+}
