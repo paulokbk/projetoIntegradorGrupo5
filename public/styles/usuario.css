@@ -169,10 +169,49 @@ svg {
 
 
 
-@media (max-width:600px) {
+@media (max-width:700px) {
     .pagina_usuario {
         width: 100%;
         display: flex;
         flex-direction: column;
+    }
+}
+
+@media (max-width:700px) {
+    #left_container{
+        width: 90%;
+        height: 700px;
+        height: 530px;
+    }
+    #right_container{
+        width: 90%;
+        height: 700px;
+    }
+    #id_usuario{
+        height: 35px;
+    }
+    #painel_sair{
+        border-top: 1px solid #eeeeee7e;
+        height: 10%;
+        display: flex;
+        align-items: center;
+    }
+    #painel_sair p{
+        margin-left: 30px;
+    }
+   
+    #menu_right {
+        width: 100%;
+        height: 600px;
+        margin-bottom: -530px;
+        margin-left: -19px;
+    }
+    #menu_right #painel_right {
+    
+        width: 98.7%;
+    }
+    #dado_usuario{
+        height: 55px;
+        margin-left: 5px;
     }
 }
